@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class SpringSampleBean {
 
 	public String getText() {
-		return "Congrats!Spring integration to wicket success";
+		return "Congrats! Spring integration success";
 	}
 
 }

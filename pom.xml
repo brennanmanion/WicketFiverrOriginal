@@ -83,7 +83,12 @@
 		    <artifactId>lombok</artifactId>
 		    <version>1.18.18</version>
 		    <scope>provided</scope>
-		</dependency>		
+		</dependency>
+		<dependency>
+		    <groupId>org.liquibase</groupId>
+		    <artifactId>liquibase-core</artifactId>
+		    <version>4.2.2</version>
+		</dependency>				
 
     </dependencies>
     <build>

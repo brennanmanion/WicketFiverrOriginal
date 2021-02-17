@@ -9,7 +9,7 @@
                 <constraints primaryKey="true" primaryKeyName="pk_user"/>
             </column>
             <column name="firstName" type="VARCHAR(255)"/>
-            <column name="firstName" type="VARCHAR(255)"/>
+            <column name="lastName" type="VARCHAR(255)"/>
             <column name="email" type="VARCHAR(255)"/>
             <column name="version" type="BIGINT"/>
         </createTable>        

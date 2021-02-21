@@ -9,6 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.wicketstuff.annotation.scan.AnnotatedMountScanner;
+
+import com.mycompany.pages.HomePage;
 
 @SpringBootApplication
 public class WicketApplication extends WebApplication {
@@ -47,7 +50,6 @@ public class WicketApplication extends WebApplication {
 		getComponentInstantiationListeners().add(new SpringComponentInjector(this, applicationContext));
 		//mountPage("/mounted.html", MountedPage.class);
 
-
-
+		new AnnotatedMountScanner().scanPackage("com.mycompany.pages").mount(this);
 	}
 }

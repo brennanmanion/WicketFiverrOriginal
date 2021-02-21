@@ -1,10 +1,11 @@
-package com.mycompany;
+package com.mycompany.pages;
 
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.request.mapper.parameter.PageParameters;
 import org.apache.wicket.spring.injection.annot.SpringBean;
 
+import com.mycompany.SpringSampleBean;
 import com.mycompany.pojo.User;
 
 public class HomePage extends WebPage {

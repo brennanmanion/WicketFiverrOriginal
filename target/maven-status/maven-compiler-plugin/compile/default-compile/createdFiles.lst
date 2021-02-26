@@ -1,4 +1,3 @@
 com/mycompany/WicketApplication.class
-com/mycompany/WarInitializer.class
 com/mycompany/WebInitializer.class
-com/mycompany/HomePage.class
+com/mycompany/WarInitializer.class
